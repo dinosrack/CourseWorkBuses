@@ -13,5 +13,5 @@ public partial class Client
 
     public string? ClientMiddleName { get; set; }
 
-    public string? ClientContacts { get; set; }
+    public string ClientContacts { get; set; } = null!;
 }

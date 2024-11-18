@@ -15,7 +15,7 @@ public partial class Worker
 
     public string WorkerPosition { get; set; } = null!;
 
-    public string? WorkerContacts { get; set; }
+    public string WorkerContacts { get; set; } = null!;
 
     public DateOnly WorkerHireDate { get; set; }
 }

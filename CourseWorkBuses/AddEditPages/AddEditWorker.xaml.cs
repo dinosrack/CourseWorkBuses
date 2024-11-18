@@ -82,10 +82,10 @@ namespace CourseWorkBuses.AddEditPages
                 return;
             }
 
-            string datePattern = @"^\d{4}-\d{2}-\d{2}$";
+            string datePattern = @"^\d{2}/\d{2}/\d{4}$";
             if (!System.Text.RegularExpressions.Regex.IsMatch(workerHireDate, datePattern))
             {
-                MessageBox.Show("Неверный формат даты в поле «Принят на работу»!\n\nПравильный: YYYY-MM-DD", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Неверный формат даты в поле «Принят на работу»!\n\nПравильный: MM/DD/YYYY", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 

@@ -11,7 +11,7 @@ public partial class Repair
 
     public string RepairStatus { get; set; } = null!;
 
-    public string? RepairNotes { get; set; }
+    public string RepairNotes { get; set; } = null!;
 
     public virtual Bus Bus { get; set; } = null!;
 }

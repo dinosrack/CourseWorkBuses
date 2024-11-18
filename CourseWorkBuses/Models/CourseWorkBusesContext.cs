@@ -35,7 +35,7 @@ public partial class CourseWorkBusesContext : DbContext
     {
         modelBuilder.Entity<Bus>(entity =>
         {
-            entity.HasKey(e => e.BusId).HasName("PK__Buses__6A0F6095209D4F35");
+            entity.HasKey(e => e.BusId).HasName("PK__Buses__6A0F60955E9CEA62");
 
             entity.Property(e => e.BusId).HasColumnName("BusID");
             entity.Property(e => e.BusBrand).HasMaxLength(100);
@@ -46,7 +46,7 @@ public partial class CourseWorkBusesContext : DbContext
 
         modelBuilder.Entity<Client>(entity =>
         {
-            entity.HasKey(e => e.ClientId).HasName("PK__Clients__E67E1A0412B0FCF3");
+            entity.HasKey(e => e.ClientId).HasName("PK__Clients__E67E1A048C1C16E8");
 
             entity.Property(e => e.ClientId).HasColumnName("ClientID");
             entity.Property(e => e.ClientContacts).HasMaxLength(255);
@@ -57,7 +57,7 @@ public partial class CourseWorkBusesContext : DbContext
 
         modelBuilder.Entity<Flight>(entity =>
         {
-            entity.HasKey(e => e.FlightId).HasName("PK__Flights__8A9E148E0B420038");
+            entity.HasKey(e => e.FlightId).HasName("PK__Flights__8A9E148E8B762F0A");
 
             entity.Property(e => e.FlightId).HasColumnName("FlightID");
             entity.Property(e => e.ArrivalPoint).HasMaxLength(100);
@@ -72,7 +72,7 @@ public partial class CourseWorkBusesContext : DbContext
 
         modelBuilder.Entity<Repair>(entity =>
         {
-            entity.HasKey(e => e.RepairId).HasName("PK__Repair__07D0BDCDE74A6B20");
+            entity.HasKey(e => e.RepairId).HasName("PK__Repair__07D0BDCDC0A08C80");
 
             entity.ToTable("Repair");
 
@@ -88,7 +88,7 @@ public partial class CourseWorkBusesContext : DbContext
 
         modelBuilder.Entity<Ticket>(entity =>
         {
-            entity.HasKey(e => e.TicketId).HasName("PK__Tickets__712CC627FA163EEA");
+            entity.HasKey(e => e.TicketId).HasName("PK__Tickets__712CC6273420DA0C");
 
             entity.Property(e => e.TicketId).HasColumnName("TicketID");
             entity.Property(e => e.FlightId).HasColumnName("FlightID");
@@ -104,7 +104,7 @@ public partial class CourseWorkBusesContext : DbContext
 
         modelBuilder.Entity<Worker>(entity =>
         {
-            entity.HasKey(e => e.WorkerId).HasName("PK__Workers__077C8806A0F09105");
+            entity.HasKey(e => e.WorkerId).HasName("PK__Workers__077C880669ACBFFF");
 
             entity.Property(e => e.WorkerId).HasColumnName("WorkerID");
             entity.Property(e => e.WorkerContacts).HasMaxLength(255);

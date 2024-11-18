@@ -82,27 +82,29 @@ namespace CourseWorkBuses.AddEditPages
                 return;
             }
 
-            string datePattern = @"^\d{4}-\d{2}-\d{2}$";
+            string datePattern = @"^\d{2}/\d{2}/\d{4}$";
             if (!System.Text.RegularExpressions.Regex.IsMatch(departureDate, datePattern))
             {
-                MessageBox.Show("Неверный формат даты в поле «Дата отправления»!\n\nПравильный: YYYY-MM-DD", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Неверный формат даты в поле «Дата отправления»!\n\nПравильный: MM/DD/YYYY", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
             if (!System.Text.RegularExpressions.Regex.IsMatch(arrivalDate, datePattern))
             {
-                MessageBox.Show("Неверный формат даты в поле «Дата прибытия»!\n\nПравильный: YYYY-MM-DD", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Неверный формат даты в поле «Дата прибытия»!\n\nПравильный: MM/DD/YYYY", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 
-            string timePattern = @"^\d{2}:\d{2}$";
+            string timePattern = @"^(0?[1-9]|1[0-2]):[0-5][0-9] (AM|PM)$";
+
             if (!System.Text.RegularExpressions.Regex.IsMatch(departureTime, timePattern))
             {
-                MessageBox.Show("Неверный формат времени в поле «Время отправления»!\n\nПравильный: HH:MM", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Неверный формат времени в поле «Время отправления»!\n\nПравильный: HH:MM AM/PM", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
+
             if (!System.Text.RegularExpressions.Regex.IsMatch(arrivalTime, timePattern))
             {
-                MessageBox.Show("Неверный формат времени в поле «Время прибытия»!\n\nПравильный: HH:MM", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Неверный формат времени в поле «Время прибытия»!\n\nПравильный: HH:MM AM/PM", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 
