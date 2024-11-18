@@ -82,7 +82,7 @@ namespace CourseWorkBuses.AddEditPages
                 return;
             }
 
-            string datePattern = @"^\d{2}/\d{2}/\d{4}$";
+            string datePattern = @"^\d{1,2}/\d{1,2}/\d{4}$";
             if (!System.Text.RegularExpressions.Regex.IsMatch(workerHireDate, datePattern))
             {
                 MessageBox.Show("Неверный формат даты в поле «Принят на работу»!\n\nПравильный: MM/DD/YYYY", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
