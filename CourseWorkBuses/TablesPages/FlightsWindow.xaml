@@ -1,0 +1,61 @@
+﻿<Window x:Class="CourseWorkBuses.Pages.FlightsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseWorkBuses.Pages"
+        mc:Ignorable="d"
+        Title="Рейсы" Height="450" Width="800" Icon="/TablesPages/Info.png" Loaded="Window_Loaded">
+    <Grid Background="#1F2029">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Width="200" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="50,50,0,0">
+            <Button x:Name="Add"
+                    Click="Add_Click"
+                    Style="{StaticResource ButtonAddMain}"/>
+
+            <Border Margin="10"/>
+
+            <Button x:Name="Edit" 
+                    Content="Редактировать"
+                    Click="Edit_Click"/>
+
+            <Border Margin="10"/>
+
+            <Button x:Name="Remove"
+                    Click="Remove_Click"
+                    Style="{StaticResource ButtonRemoveMain}"/>
+
+            <Border Margin="10"/>
+
+            <Label Content="Введи код для поиска:"/>
+
+            <Border Margin="10"/>
+
+            <TextBox x:Name="ID"
+                     Height="35"/>
+
+            <Border Margin="10"/>
+
+            <Button x:Name="Find"
+                    Click="Find_Click"
+                    Style="{StaticResource ButtonFindMain}"/>
+        </StackPanel>
+
+        <DataGrid x:Name="Table" IsReadOnly="True" Grid.Column="1" AutoGenerateColumns="False" Margin="50">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID рейса" Binding="{Binding FlightId}"/>
+                <DataGridTextColumn Header="ID автобуса" Binding="{Binding BusId}"/>
+                <DataGridTextColumn Header="Отправляется из" Binding="{Binding DeparturePoint}"/>
+                <DataGridTextColumn Header="Дата отправления" Binding="{Binding DepartureDate}"/>
+                <DataGridTextColumn Header="Дата отправления" Binding="{Binding DepartureTime}"/>
+                <DataGridTextColumn Header="Прибывает в" Binding="{Binding ArrivalPoint}"/>
+                <DataGridTextColumn Header="Дата прибытия" Binding="{Binding ArrivalDate}"/>
+                <DataGridTextColumn Header="Время прибытия" Binding="{Binding ArrivalDate}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
