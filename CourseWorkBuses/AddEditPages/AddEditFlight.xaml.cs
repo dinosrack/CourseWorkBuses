@@ -69,6 +69,12 @@ namespace CourseWorkBuses.AddEditPages
                 return;
             }
 
+            if (bus.BusStatus != "В эксплуатации")
+            {
+                MessageBox.Show("Выбранный автобус должен быть в эксплуатации!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
             string placePattern = @"^[А-Яа-яЁё\s\-]+$"; 
             if (!System.Text.RegularExpressions.Regex.IsMatch(departurePoint, placePattern))
             {
