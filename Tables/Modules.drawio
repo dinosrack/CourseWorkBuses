@@ -1,0 +1,170 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Схема модулей" id="cPq8n2PzeiPfD2wOMpCX">
+    <mxGraphModel dx="1195" dy="703" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-3" value="Автобусы" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-5" value="" style="swimlane;startSize=0;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-3">
+          <mxGeometry x="10" y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-11" value="&amp;nbsp; Код автобуса (PK)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#808080;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-5">
+          <mxGeometry width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-12" value="&amp;nbsp; Бренд автобуса" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-5">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-13" value="&amp;nbsp; Модель автобуса" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-5">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-14" value="&amp;nbsp; Год выпуска автобуса" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-5">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-15" value="&amp;nbsp; Номерной знак автобуса" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-5">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-16" value="&amp;nbsp; Вместимость автобуса" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-5">
+          <mxGeometry y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-17" value="&amp;nbsp; Статус автобуса" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-5">
+          <mxGeometry y="180" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-18" value="Сотрудники" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-19" value="" style="swimlane;startSize=0;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-18">
+          <mxGeometry x="10" y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-20" value="&amp;nbsp; Код сотрудника (PK)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#808080;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-19">
+          <mxGeometry width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-21" value="&amp;nbsp; Фамилия сотрудника" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-19">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-22" value="&amp;nbsp; Имя сотрудника" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-19">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-23" value="&amp;nbsp; Отчество сотрудника" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-19">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-24" value="&amp;nbsp; Должность сотрудника" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-19">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-25" value="&amp;nbsp; Контакты сотрудника" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-19">
+          <mxGeometry y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-26" value="&amp;nbsp; Дата приема на работу" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-19">
+          <mxGeometry y="180" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-27" value="Рейсы" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="180" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-28" value="" style="swimlane;startSize=0;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-27">
+          <mxGeometry x="10" y="30" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-29" value="&amp;nbsp; Код рейса (PK)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#808080;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-28">
+          <mxGeometry width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-30" value="&amp;nbsp; Код автобуса (FK)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#CCCCCC;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-28">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-31" value="&amp;nbsp; Место отправления" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-28">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-32" value="&amp;nbsp; Дата отправления" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-28">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-33" value="&amp;nbsp; Время отправления" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-28">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-34" value="&amp;nbsp; Место прибытия" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-28">
+          <mxGeometry y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-35" value="&amp;nbsp; Дата прибытия" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-28">
+          <mxGeometry y="180" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-36" value="&amp;nbsp; Время прибытия" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-28">
+          <mxGeometry y="210" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-37" value="Билеты" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="100" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-38" value="" style="swimlane;startSize=0;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-37">
+          <mxGeometry x="10" y="30" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-39" value="&amp;nbsp; Код билета (PK)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#808080;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-38">
+          <mxGeometry width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-41" value="&amp;nbsp; Тип билета" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-38">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-42" value="&amp;nbsp; Цена билета" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-38">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-43" value="&amp;nbsp; Статус билета" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-38">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-46" value="&amp;nbsp; Код рейса (FK)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#CCCCCC;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-38">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-47" value="Клиенты" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="340" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-48" value="" style="swimlane;startSize=0;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-47">
+          <mxGeometry x="10" y="30" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-49" value="&amp;nbsp; Код клиента (PK)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#808080;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-48">
+          <mxGeometry width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-50" value="&amp;nbsp; Фамилия клиента" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-48">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-51" value="&amp;nbsp; Имя клиента" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-48">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-52" value="&amp;nbsp; Отчество клиента" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-48">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-53" value="&amp;nbsp; Контакты клиента" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-48">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-56" value="Ремонт" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-57" value="" style="swimlane;startSize=0;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-56">
+          <mxGeometry x="10" y="30" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-58" value="&amp;nbsp; Код ремонта (PK)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#808080;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-57">
+          <mxGeometry width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-60" value="&amp;nbsp; Статус ремонта" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-57">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-61" value="&amp;nbsp; Описание ремонта" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-57">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-63" value="&amp;nbsp; Код автобуса (FK)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#CCCCCC;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="sWWV4aU0v1zVZiFoeMmn-57">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="sWWV4aU0v1zVZiFoeMmn-46" target="sWWV4aU0v1zVZiFoeMmn-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="sWWV4aU0v1zVZiFoeMmn-30" target="sWWV4aU0v1zVZiFoeMmn-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sWWV4aU0v1zVZiFoeMmn-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;curved=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="sWWV4aU0v1zVZiFoeMmn-63" target="sWWV4aU0v1zVZiFoeMmn-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="475" />
+              <mxPoint x="320" y="610" />
+              <mxPoint x="90" y="610" />
+              <mxPoint x="90" y="85" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
